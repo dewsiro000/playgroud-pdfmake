@@ -80,9 +80,8 @@ const FM_PD_001 = async (form, formInput, date) => {
               { text: '', alignment: 'center' },
               { text: ``, alignment: 'center' },
               {
-                text: `วันที่บังคับใช้: ${
-                  dayjs(form?.enforceDate).format('DDMMMYYYY') || '-'
-                }`,
+                text: `วันที่บังคับใช้: ${dayjs(form?.enforceDate).format('DDMMMYYYY') || '-'
+                  }`,
                 fontSize: '12',
               },
             ],
@@ -121,74 +120,74 @@ const FM_PD_001 = async (form, formInput, date) => {
       {
         table: {
           widths: [
-            '9%',
-            '6%',
-            '9%',
-            '9%',
-            '10%',
-            '9%',
-            '9%',
-            '9%',
-            '7%',
-            '8%',
-            '14%',
+            '9%',  //1
+            '6%',  //2
+            '9%',  //3
+            '9%',  //4
+            '10%', //5
+            '9%',  //6
+            '9%',  //7
+            '9%',  //8
+            '7%',  //9
+            '8%',  //10
+            '14%', //11
           ],
           body: [
             [
               // Row 1
-              {
+              {  //1
                 text: 'ชุดที่',
                 alignment: 'left',
                 bold: true,
                 border: [true, true, true, false],
               },
-              {
+              { //2
                 text: '',
                 alignment: 'center',
                 bold: true,
                 border: [true, true, true, false],
               },
-              {
+              { //3
                 text: 'นํ้าหนัก',
                 alignment: 'center',
                 bold: true,
                 border: [true, true, true, false],
               },
-              {
+              { //4
                 text: 'เริ่มอบ',
                 alignment: 'center',
                 bold: true,
                 border: [true, true, true, false],
               },
-              {
+              { //5
                 text: '15 นาที',
                 colSpan: 2,
                 alignment: 'center',
                 border: [true, true, true, false],
                 bold: true,
               },
-              {},
-              {
+              {}, //6
+              {  //7
                 text: '30 นาที',
                 colSpan: 2,
                 alignment: 'center',
                 border: [true, true, true, false],
                 bold: true,
               },
-              {},
-              {
+              {}, //8
+              {  //9
                 text: '',
                 alignment: 'center',
                 bold: true,
                 border: [true, true, true, false],
               },
-              {
+              { //10
                 text: '',
                 alignment: 'center',
                 bold: true,
                 border: [true, true, true, false],
               },
-              {
+              { //11
                 text: '',
                 alignment: 'center',
                 bold: true,
@@ -197,57 +196,57 @@ const FM_PD_001 = async (form, formInput, date) => {
             ],
             [
               //Row 2
-              {
+              { //1
                 text: '',
                 style: 'headerTable',
                 border: [true, false, true, false],
               },
-              {
+              { //2
                 text: 'หม้อที่',
                 style: 'headerTable',
                 border: [true, false, true, false],
               },
-              {
+              { //3
                 text: '',
                 style: 'headerTable',
                 border: [true, false, true, false],
               },
-              {
+              {  //4
                 text: '',
                 style: 'headerTable',
                 border: [true, false, true, false],
               },
-              {
+              { //5
                 text: 'แรงดัน',
                 style: 'headerTable',
                 border: [true, true, true, false],
               },
-              {
+              { //6
                 text: 'อุณหภูมิ',
                 style: 'headerTable',
                 border: [true, true, true, false],
               },
-              {
+              { //7
                 text: 'แรงดัน',
                 style: 'headerTable',
                 border: [true, true, true, false],
               },
-              {
+              { //8
                 text: 'อุณหภูมิ',
                 style: 'headerTable',
                 border: [true, true, true, false],
               },
-              {
+              { //9
                 text: 'เวลาอบ',
                 style: 'headerTable',
                 border: [true, false, true, false],
               },
-              {
+              { //10
                 text: 'เวลาออก',
                 style: 'headerTable',
                 border: [true, false, true, false],
               },
-              {
+              { //11
                 text: 'หมายเหตุ',
                 style: 'headerTable',
                 border: [true, false, true, false],
@@ -255,59 +254,59 @@ const FM_PD_001 = async (form, formInput, date) => {
             ],
             [
               //Row 3
-              {
+              { //1
                 text: 'ค่าควบคุม',
                 alignment: 'right',
                 margin: [0, -1],
                 bold: true,
                 border: [true, false, true, true],
               },
-              { text: '', border: [true, false, true, true], margin: [0, -1] },
-              {
+              { text: '', border: [true, false, true, true], margin: [0, -1] }, //2
+              { //3
                 text: '25-30(ตัน)',
                 alignment: 'center',
                 margin: [0, -1],
                 bold: true,
                 border: [true, false, true, true],
               },
-              {
+              { //4
                 text: 'เวลา45-60M',
                 alignment: 'center',
                 margin: [0, -1],
                 bold: true,
                 border: [true, false, true, true],
               },
-              {
+              { //5                
                 text: '0.80-1.20 bar',
                 bold: true,
                 alignment: 'center',
                 margin: [0, -1],
                 border: [true, false, true, true],
               },
-              {
+              { //6
                 text: '100-100 ํC',
                 bold: true,
                 alignment: 'center',
                 margin: [0, -1],
                 border: [true, false, true, true],
               },
-              {
+              { //7
                 text: '1.7-2.7 bar',
                 bold: true,
                 alignment: 'center',
                 margin: [0, -1],
                 border: [true, false, true, true],
               },
-              {
+              { //8
                 text: '130-140 ํC',
                 bold: true,
                 alignment: 'center',
                 margin: [0, -1],
                 border: [true, false, true, true],
               },
-              { text: '', margin: [0, -1], border: [true, false, true, true] },
-              { text: '', margin: [0, -1], border: [true, false, true, true] },
-              {
+              { text: '', margin: [0, -1], border: [true, false, true, true] }, //9
+              { text: '', margin: [0, -1], border: [true, false, true, true] },  //10
+              { //11
                 text: '',
                 margin: [0, -1],
                 border: [true, false, true, true],
