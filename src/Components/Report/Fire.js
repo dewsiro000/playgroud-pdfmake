@@ -77,18 +77,19 @@ const Fire = async (form, formInput, date) => {
                         ],
                         [  // Row 2
                             {
-                                text: '', alignment: 'center',
+                                text: '',
+                                alignment: 'center',
                                 border: [true, false, true, false],
                             },
 
                             { text: ``, alignment: 'center' },
                             {
-                                text: `แก้ไขครั้งที่ : 02`,
+                                text: `แก้ไขครั้งที่  :  02`,
                                 fontSize: '10',
                             },
                             {
                                 text: 'หน้าที่: 1/1',
-                                alignment: 'center',
+                                alignment: 'left',
 
                             },
                         ],
@@ -158,6 +159,7 @@ const Fire = async (form, formInput, date) => {
                                 bold: true,
                                 border: [true, true, false, true],
                                 colSpan: 7,
+                                margin: [0, 2],
 
                             },
                             { //3
@@ -194,6 +196,7 @@ const Fire = async (form, formInput, date) => {
                                 fontSize: '12',
                                 bold: true,
                                 border: [true, true, true, false],
+                                // margin: [0, 2],
                             },
 
                         ],
@@ -211,24 +214,28 @@ const Fire = async (form, formInput, date) => {
                                 alignment: 'center',
                                 bold: true,
                                 border: [true, true, true, false],
+                                margin: [0, 2],
                             },
                             { //3
                                 text: '04.00',
                                 alignment: 'center',
                                 bold: true,
                                 border: [true, true, true, false],
+                                margin: [0, 2],
                             },
                             { //4
                                 text: '08.00',
                                 alignment: 'center',
                                 bold: true,
                                 border: [true, true, true, false],
+                                margin: [0, 2],
                             },
                             { //5
                                 text: '12.00',
                                 // colSpan: 2,
                                 alignment: 'center',
                                 border: [true, true, true, false],
+                                margin: [0, 2],
                                 bold: true,
                             },
                             { //6
@@ -236,6 +243,7 @@ const Fire = async (form, formInput, date) => {
                                 // colSpan: 2,
                                 alignment: 'center',
                                 border: [true, true, true, false],
+                                margin: [0, 2],
                                 bold: true,
                             },
                             {  //7
@@ -243,6 +251,7 @@ const Fire = async (form, formInput, date) => {
                                 // colSpan: 2,
                                 alignment: 'center',
                                 border: [true, true, true, false],
+                                margin: [0, 2],
                                 bold: true,
                             },
                             {  //8
@@ -250,6 +259,7 @@ const Fire = async (form, formInput, date) => {
                                 // colSpan: 2,
                                 alignment: 'center',
                                 border: [true, true, true, false],
+                                margin: [0, 2],
                                 bold: true,
                             },
                             {  //9
